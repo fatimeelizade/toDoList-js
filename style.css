@@ -1,7 +1,105 @@
-.box{
-    border: 5px solid black;
-    background-color: aqua;
+.container{
+    border: 1px solid rgb(141, 141, 22);
+    background-color: rgb(255, 255, 255);
     padding: 20px;
+    width: 20%;
+    min-height: 300px;
+    border-radius: 10px;
+}
+body{
+    background-color: rgb(255, 244, 148);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.textt input{
+    width: 270px;
+    padding: 10px ;
+}
+.textt{
+    margin-left: -4px;
+}
+.textt button{
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(255, 244, 148);
+    border-radius: 6px;
+    border: 1px solid rgb(141, 141, 22);
+    color: black;
+}
+.button-edit{
+    display: flex;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(255, 239, 90);
+    border-radius: 6px;
+    border: 1px solid rgb(141, 141, 22);
+    color: black;
+    margin-right: 10px;
+    padding-left: 15px;
+    padding-top: 6px;
+}
+.button-remove{
+    display: flex;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(190, 184, 129);
+    border-radius: 6px;
+    border: 1px solid rgb(141, 141, 22);
+    color: black;
+    margin-right: 10px;
+    padding-left: 8px;
+    padding-top: 6px;
+}
+.actions{
+    display: flex;
+    margin-left: 100px;
+}
+
+.delete{
     margin-top: 50px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
     width: 40%;
+    height: 350px;
+    border: 1px solid black;
+}
+.warning{
+    font-size: 18px;
+    margin-top: -100px;
+}
+.button-yes button{
+    background-color: green;
+    color: white;
+    border: none;
+    width: 90px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+.button-no button{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 90px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 6px;
+
+}
+.btns{
+    display: flex;
+    margin-top: 20px;
+    gap: 50px;
+}
+.d-none{
+    display: none;
 }
